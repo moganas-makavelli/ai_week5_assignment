@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data files (optional, except one small sample)
+data/*.csv
+!data/sample_patient_data.csv
+
+# Model artifacts - keep for Streamlit
+!models/*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
